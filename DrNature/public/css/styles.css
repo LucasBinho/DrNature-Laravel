@@ -1,0 +1,16 @@
+* {
+    font-family: 'Roboto';
+}
+
+header {
+    display: flex!important;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer {
+    width: 100%;
+    display: flex!important;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
