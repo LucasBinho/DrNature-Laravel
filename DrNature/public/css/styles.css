@@ -13,4 +13,7 @@ footer {
     display: flex!important;
     flex-direction: row;
     justify-content: space-evenly;
+    position: absolute;
+    bottom: 0;
 }
+

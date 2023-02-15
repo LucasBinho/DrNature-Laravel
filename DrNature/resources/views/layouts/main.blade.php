@@ -19,7 +19,6 @@
     </head>
     <header>
         <img src="/img/logo_Doutor-Nature.svg" alt="logo Header Doutor Nature">
-        <h2>Cadastro de Produtos</h2>
     </header>
     <body>
         @yield('content')
