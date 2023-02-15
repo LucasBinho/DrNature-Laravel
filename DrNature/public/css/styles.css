@@ -17,3 +17,27 @@ footer {
     bottom: 0;
 }
 
+#product-container {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.produtosTitulo {
+    display: flex;
+    justify-content: center;
+}
+
+.voltar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    text-decoration: none!important;
+    color: red;
+}
+
+.voltar:hover {
+    font-size: larger;
+    font-weight: bold;
+    color: red;
+}

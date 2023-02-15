@@ -4,16 +4,19 @@
 
 @section('content')
 
-<h1>Lista de Produtos:</h1>
+<h1 class="produtosTitulo mt-5">Lista de Produtos:</h1>
 
 @foreach ($produtos as $produto)
+<div id="product-container" class="col-md-6 offset-md-3 mt-5">
     <p>Código do Produto: {{ $produto->código }}</p>
     <p>Nome do Produto: {{ $produto->nome }}</p>
     <p>Descrição: {{ $produto->descrição }}</p>
     <p>Preço: {{ $produto->preço }}</p>
-    <br>
+
+</div>
+   
 @endforeach
 
-<a href="/">Voltar</a>
+<a class="voltar" href="/">Voltar</a>
 
 @endsection

@@ -19,3 +19,7 @@ Route::get('/', [ProdutoController::class, 'index']);
 
 Route::get('/produtos', [ProdutoController::class, 'products']);
 
+Route::get('/produtos/{código}', [ProdutoController::class, 'PesquisarProdutoPeloCódigo']);
+
+Route::post('/', [ProdutoController::class, 'store']);
+
