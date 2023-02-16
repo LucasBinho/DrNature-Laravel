@@ -14,11 +14,17 @@ desejar.
 - **PHP** (https://www.php.net/downloads.php) -- Para Windows: (https://windows.php.net/download#php-8.2)
 - **Laravel** (https://laravel.com/docs/4.2)
 - **XAMPP (MySQL)** (https://www.apachefriends.org/download.html)
+- **Insomnia** (https://insomnia.rest/download)
 
 &nbsp;
 
 
-***É necessário que você tenha instalado as três tecnologias para seguir com a aplicação***
+***É necessário que você tenha instalado as três tecnologias (PHP, Laravel e XAMPP) para seguir com a aplicação.***
+
+&nbsp;
+ ***O insomnia é utilizado para o teste da rota de API. Outras tecnologias podem ser utilizadas para fazer o teste.***
+
+
 
 &nbsp;
 
@@ -79,5 +85,20 @@ de Rodando a aplicação:
 
 
 ![pastas](DrNature/public/img/ListaProdutos.PNG)  
+
+
+## :calling: Teste da rota da API
+Para fazer o teste da rota de API que utiliza-se do código de algum produto cadastrado, é necessário antes que haja algum produto cadastrado no banco. Para isso, é necessário primeiramente cadastrar algum produto através do formulário da página.
+Com algum produto cadastrado, utilizei o Insomnia para o teste da rota (você pode utilizar de outras tecnologias) através do seguinte comando no terminal
+da tecnologia utilizada:
+```
+http://127.0.0.1:8000/produtos/drnature01
+```
+***O link utilizado é composto pelo local host da sua máquina, a página de produtos e por final o código do produto criado por você. No meu caso, utilizei
+do código drnature01.***
+
+Exemplo de resposta do terminal:
+
+![pastas](DrNature/public/img/Insomnia.PNG)  
 
 
