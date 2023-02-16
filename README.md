@@ -31,7 +31,7 @@ Clone este repositório:
 https://github.com/LucasBinho/DrNature-Laravel.git
 ```
 
-## Rodando a aplicação:
+## 	:cd: Rodando a aplicação:
 
 Para rodas a aplicação basta utilizar o seguinte comando no terminal:
 ```
