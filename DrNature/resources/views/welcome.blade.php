@@ -21,7 +21,7 @@
         </div>
         <div class="mb-3">
           <label for="inputPreco" class="form-label">Preço:</label>
-          <input type="number" name="preço" class="form-control" id="inputPreco" required>
+          <input type="number" name="preço" class="form-control" id="inputPreco" reqreuired>
         </div>
       <input type="submit" class="btn btn-primary" value="Criar Produto">
       <input type="button" class="btn btn-primary" onclick="window.location='{{ 'produtos' }}'" value="Ver Produtos">
