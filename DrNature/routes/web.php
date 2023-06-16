@@ -19,7 +19,15 @@ Route::get('/', [ProdutoController::class, 'index']);
 
 Route::get('/produtos', [ProdutoController::class, 'products']);
 
+Route::get('/produtos/{código}/editar', [ProdutoController::class, 'edit']);
+
 Route::get('/produtos/{código}', [ProdutoController::class, 'PesquisarProdutoPeloCódigo']);
 
 Route::post('/', [ProdutoController::class, 'store']);
+
+Route::patch('/produtos/atualizar', [ProdutoController::class, 'atualizar']);
+
+Route::delete('/produtos/deletar', [ProdutoController::class, 'deletar']);
+
+
 

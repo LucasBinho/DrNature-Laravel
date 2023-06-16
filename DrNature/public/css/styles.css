@@ -8,13 +8,17 @@ header {
     justify-content: space-around;
 }
 
+.page-content {
+    min-height: 80vh;
+}
+
 footer {
     width: 100%;
     display: flex!important;
     flex-direction: row;
     justify-content: space-evenly;
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    margin-top: auto;
 }
 
 #product-container {
@@ -37,7 +41,7 @@ footer {
 }
 
 .voltar:hover {
-    font-size: larger;
+
     font-weight: bold;
     color: red;
 }
